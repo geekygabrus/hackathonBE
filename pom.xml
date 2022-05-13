@@ -66,12 +66,6 @@
 			<artifactId>jackson-datatype-joda</artifactId>
 			<version>2.13.2</version>
 		</dependency>
-		
-		<plugin>
-   <groupId>com.google.cloud.tools</groupId>
-   <artifactId>appengine-maven-plugin</artifactId>
-   <version>2.4.2</version>
-</plugin>
 
 	</dependencies>
 
@@ -81,6 +75,22 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+
+			<!-- <plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<configuration>
+					<executable>java</executable>
+					<mainClass>com.baeldung.outofmemoryerror.OutOfMemoryGCLimitExceed</mainClass>
+					<arguments>
+						<argument>-Xmx300m</argument>
+						<argument>-XX:+UseParallelGC</argument>
+						<argument>-classpath</argument>
+						<classpath />
+						<argument>com.baeldung.outofmemoryerror.OutOfMemoryGCLimitExceed</argument>
+					</arguments>
+				</configuration>
+			</plugin> -->
 
 		</plugins>
 	</build>
