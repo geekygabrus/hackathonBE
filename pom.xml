@@ -82,7 +82,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
-			<plugin>
+		<!--	<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<configuration>
@@ -96,7 +96,7 @@
 						<argument>com.baeldung.outofmemoryerror.OutOfMemoryGCLimitExceed</argument>
 					</arguments>
 				</configuration>
-			</plugin>
+			</plugin> -->
 
 		</plugins>
 	</build>
