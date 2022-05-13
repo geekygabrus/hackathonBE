@@ -82,22 +82,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
-		<!--	<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<configuration>
-					<executable>java</executable>
-					<mainClass>com.baeldung.outofmemoryerror.OutOfMemoryGCLimitExceed</mainClass>
-					<arguments>
-						<argument>-Xmx300m</argument>
-						<argument>-XX:+UseParallelGC</argument>
-						<argument>-classpath</argument>
-						<classpath />
-						<argument>com.baeldung.outofmemoryerror.OutOfMemoryGCLimitExceed</argument>
-					</arguments>
-				</configuration>
-			</plugin> -->
-
 		</plugins>
 	</build>
 
